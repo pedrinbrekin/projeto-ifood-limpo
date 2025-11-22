@@ -1,0 +1,126 @@
+
+#searchRestaurantes {
+    font-size: 0.95rem;
+    padding-left: 1rem;
+    height: 50px; 
+}
+
+.input-group-text {
+    border-radius: 0;
+}
+
+.input-group-text i {
+    font-size: 1.2rem;
+}
+
+.rounded-start-pill {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.rounded-end-pill {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+.restaurante-logo-lg {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 50%; 
+    margin-bottom: 0.5rem;
+    border: 4px solid #f8f9fa; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+/* card restaurante */
+.restaurante-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e9ecef; 
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.restaurante-card:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-title {
+    font-size: 1.25rem; 
+    font-weight: 700;
+    color: #000;
+}
+
+.card-body {
+    padding-bottom: 1rem;
+}
+
+
+
+/* botão conferir cardápio */
+.btn-danger {
+    background-color: #EA1D2C; 
+    border-color: #EA1D2C;
+    font-weight: 600;
+}
+
+.btn-danger:hover {
+    background-color: #c01a27;
+    border-color: #c01a27;
+}
+
+/* estilos para a página cardapio.html */
+
+.produto-card {
+    border: none;
+    border-radius: 8px;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+.produto-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.produto-imagem {
+    width: 100%; 
+    height: 120px; 
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.produto-nome {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.produto-descricao {
+    font-size: 0.85rem;
+    color: #6c757d;
+    height: 30px; 
+    overflow: hidden;
+}
+
+.produto-preco {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #000;
+}
+
+/* icone de adicionar rápido (estilo app) */
+.add-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 28px;
+    color: #EA1D2C; 
+    background-color: white;
+    border-radius: 50%;
+    line-height: 0;
+    padding: 2px;
+}
