@@ -1,4 +1,4 @@
-# Arquivos de Build do .NET
+# arquivos de build do .NET
 [Bb]in/
 [Oo]bj/
 *.log
@@ -12,32 +12,32 @@
 *.*.log
 *.*.open
 
-# Arquivos Específicos do Visual Studio (VS) e .NET
+# arquivos específicos do visual studio (VS) e .NET
 *.csproj.user
 *.sln.docstates
-.vs/ # Pasta oculta do VS
+.vs/ # pasta oculta do VS
 
-# Arquivos de Cache de Pacotes
+# arquivos de cache de pacotes
 **/node_modules/
 **/*.dll
 **/*.exe
 
-# Cache e Configs Pessoais do NuGet
+# cache e configs pessoais do NuGet
 .nuget/packages/
 
-# Configurações do VS Code
+# configurações do VS Code
 .vscode/
-# Não ignore launch.json se ele for essencial para debugar, mas ignore outras configs
+
 # .vscode/settings.json 
 
-# Configurações do Sistema Operacional (Mac)
+# configurações do sistema operacional (Mac)
 .DS_Store
 Thumbs.db
 
-# Arquivos de desenvolvimento local
+# arquivos de desenvolvimento local
 appsettings.Development.json
 Properties/launchSettings.json
 
-# Arquivos do Live Server/Servidores Locais
+# arquivos do live server/servidores locais
 **/*.bak
 **/*.tmp
