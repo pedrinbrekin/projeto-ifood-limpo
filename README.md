@@ -25,7 +25,7 @@ O foco deste trabalho é praticar:
 | Camada | Tecnologias |
 |--------|-------------|
 | Frontend | HTML5, CSS3, JavaScript |
-| Backend | C# .NET 6 |
+| Backend | C# .NET 10 |
 | Organização | Git + GitHub |
 
 ---
